@@ -1,0 +1,529 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.small{
+    height: 50px;
+    width: 100%;
+    background-color: #1c1c1c;
+}
+.location{
+    height: 50px;
+    width: 20%;
+    float: left;
+}
+.location i{
+    padding-top: 10px;
+    font-size: 25px;
+    color: yellow;
+    cursor: pointer;
+}
+.location span{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.phone{
+    height: 50px;
+    width: 20%;
+    float: left;
+    margin-left: 26%;
+}
+.phone i{
+    padding-top: 10px;
+    font-size: 25px;
+    color: yellow;
+    cursor: pointer;
+}
+.phone span{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.gmail{
+    height: 50px;
+    width: 20%;
+    float: right;
+}
+.gmail i{
+    padding-top: 10px;
+    font-size: 25px;
+    color: yellow;
+    cursor: pointer;
+}
+.gmail span{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+/* section a1 start */
+.a1{
+    height: 1000px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.you{
+    width: 40%;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+.you #u{
+    font-size: 50px;
+}
+.you #r{
+    font-size: 50px;
+}
+.you p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 100px;
+    color: rgb(204, 204, 74);
+}
+.you .r1{
+    background-color: white;
+    border: 1px solid black;
+    width: 190px;
+    font-weight: lighter;
+}
+.you .r2{
+    background-color: yellow;
+    border: 1px solid yellow;
+    width: 190px;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+.a{
+    height: 60px;
+    width: 32%;
+    float: right;
+    margin-top: 40px;
+}
+.a a{
+    line-height: 60px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 8px;
+}
+
+/* section a1 is over */
+
+/* section a2 start */
+#about{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+}
+#about .w1{
+    height: 500px;
+    width: 35%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 50px;
+    margin-left: 20%;
+    background-image: url(images/about-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about .w2{
+    height: 300px;
+    width: 35%;
+    /* border: 1px solid black; */
+    float: right;
+    margin-right: 150px;
+    margin-top: 150px;
+}
+.w2 h1{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.w2 p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+.w2 button{
+    font-weight: lighter;
+}
+/* section a2 over */
+
+/* section a3 start */
+#services{
+    width: 100%;
+    height: 650px;
+    border: 1px solid black;
+    background-color: #1c1c1c;
+    padding-top: 60px;
+}
+span{
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#services .ho{
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+    background-color: white;
+}
+.ho img{
+    margin-top: 20px;
+}
+.ho h1{
+    padding-top: 50px;
+}
+.ho p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.ho button{
+    font-weight: lighter;
+}
+.of{
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+    background-color: white;
+}
+.of img{
+    margin-top: 20px;
+}
+.of h1{
+    padding-top: 50px;
+}
+.of p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.of button{
+    font-weight: lighter;
+}
+.bo{
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+    background-color: white;
+}
+.bo img{
+    margin-top: 20px;
+}
+.bo h1{
+    padding-top: 50px;
+}
+.bo p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.bo button{
+    font-weight: lighter;
+}
+/* section a3 over */
+
+/* section a4 start */
+.a4{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+.client{
+    height: 500px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+.client p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.client img{
+    margin-top: 100px;
+}
+.client h1{
+    font-size: 40px;
+}
+.left{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 250px;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+}
+.left i{
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.right{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 250px;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+}
+.right i{
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+/* section a4 over */
+
+/* section a5 start */
+#contact{
+    height: 800px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact .contact{
+    height: 600px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 22%;
+}
+.contact h1{
+    font-size: 40px;
+    text-align: center;
+}
+.inf{
+    margin-top: 50px;
+}
+input{
+    height: 50px;
+    width: 600px;
+    border: 1px solid white;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.message{
+    height: 100px;
+    width: 600px;
+}
+button{
+    background-color: yellow;
+   border: 1px solid yellow;
+    font-weight: bolder;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+/* section a5 over */
+
+/* section a6 start */
+
+#guards{
+    width: 100%;
+    height: 900px;
+    border: 1px solid black;
+}
+.guard{
+    width: 70%;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+.guard .go{
+    text-align: center;
+    font-size: 40px;
+}
+.guard .g1{
+    height: 450px;
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+    background-image: url(images/g1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+}
+.g1 h1{
+    text-align: center;
+    padding-top: 370px;
+    color: white;
+}
+.g1 h2{
+    color: white;
+    text-align: center;
+}
+.guard .g2{
+    height: 450px;
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(images/g2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g2 h1{
+    text-align: center;
+    padding-top: 370px;
+    color: white;
+}
+.g2 h2{
+    color: white;
+    text-align: center;
+}
+.guard .g3{
+    height: 450px;
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-image: url(images/g3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g3 h1{
+    text-align: center;
+    padding-top: 370px;
+    color: white;
+}
+.g3 h2{
+    color: white;
+    text-align: center;
+}
+/* section a6 over */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #1c1c1c;
+}
+.gu{
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 100px;
+}
+.gu h1{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.gu h2{
+    padding-top: 30px;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+}
+.use{
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 100px;
+}
+.use h1{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.use h2{
+    padding-top: 30px;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+}
+.con{
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 100px;
+}
+.con h1{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.con h2{
+    padding-top: 30px;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+}
+.new{
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 100px;
+}
+.new h1{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.new h2{
+    padding-top: 30px;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+}
+#lo2{
+    font-size: 20px;
+    padding-top: 30px;
+    color: yellow;
+    cursor: pointer;
+}
+.location2 span{
+    font-size: 23px;
+    cursor: pointer;
+}   
+#ph2{
+    font-size: 20px;
+    padding-top: 20px;
+    color: yellow;
+    cursor: pointer;
+}
+.phone2 span{
+    font-size: 23px;
+    cursor: pointer;
+}
+#gm2{
+    font-size: 20px;
+    padding-top: 20px;
+    color: yellow;
+    cursor: pointer;
+} 
+.gmail2 span{
+    font-size: 23px;
+    cursor: pointer;
+}
+.e{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+}
+.new button{
+    border-radius: 20px;
+}
+
+/* footer over */
