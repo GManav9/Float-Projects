@@ -1,0 +1,605 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header is start */
+header{
+    height: 800px;
+    width: 100%;
+    background-image: url(img/banner-bg.png);
+    /* border: 1px solid black; */
+}
+.logo{
+    height: 80px;
+    width: 15%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.log{
+    height: 80px;
+    width: 10%;
+    /* border: 1px solid black; */
+    float: right;
+}
+.log a{
+    /* display: inline; */
+    font-size: 20px;
+    line-height: 80px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: #d98473;
+    text-decoration: none;
+}
+.log a:hover{
+    color: #4a4949;
+    transition: 1s;
+}
+.fa-user{
+    font-size: 25px;
+    color:#d98473 ;
+    cursor: pointer;
+}
+.fa-magnifying-glass{
+    font-size: 25px;
+    color:#d98473 ;
+    padding-left: 20px;
+    cursor: pointer;
+}
+nav{
+    height: 80px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 80px;
+    color: black;
+}
+nav a:hover{
+    color: #d98473;
+}
+.banner{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 200px;
+    margin-left: 150px;
+    background-image: url(img/banner-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cof{
+    height: 450px;
+    width: 500px;
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: 150px;
+    margin-right: 450px;
+}
+.cof h1{
+    font-size: 100px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 800;
+    padding-top: 30px;
+}
+.cof h2{
+    font-size: 30px;
+    padding-top: 10px;
+    color: #d98473;
+}
+.cof p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.cof .about{
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.about:hover{
+    cursor: pointer;
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+.cof .call{
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.call:hover{
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    transition: 1s;
+}
+
+/* header is over */
+
+/* section a1 is start */
+
+#a1{
+    height: 1000px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a1 #fh1{
+    font-size: 60px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 800;
+    padding-top: 150px;   
+    text-align: center;
+}
+.coffeetype{
+    height: 600px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-left: 5%;
+}
+.typeof,.bean,.pastry,.togo{
+    height: 500px;
+    width: 22%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 2.5%;
+}
+.typeof{
+    background-image: url(img/img-1.png);
+    background-repeat: no-repeat;
+    
+}
+.typeof h1{
+    text-align: center;
+    color: #4a4949;
+    padding-top: 350px;
+    font-weight: bolder;
+    font-family: inherit; 
+    font-size: 35px;  
+}
+.typeof p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.typeof button{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    color: white;
+    font-size: 20px;
+}
+.typeof button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+.bean{
+    background-image: url(img/img-2.png);
+    background-repeat: no-repeat;
+}
+.bean h1{
+    text-align: center;
+    color: #4a4949;
+    padding-top: 350px;
+    font-weight: bolder;
+    font-family: inherit;   
+    font-size: 35px;
+}
+.bean p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.bean button{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    color: white;
+    font-size: 20px;
+}
+.bean button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+.pastry{
+    background-image: url(img/img-3.png);
+    background-repeat: no-repeat;
+}
+.pastry h1{
+    text-align: center;
+    color: #4a4949;
+    padding-top: 350px;
+    font-weight: bolder;
+    font-family: inherit;   
+    font-size: 35px;
+}
+.pastry p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pastry button{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    color: white;
+    font-size: 20px;
+}
+.pastry button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+.togo{
+    background-image: url(img/img-4.png);
+    background-repeat: no-repeat;
+}
+.togo h1{
+    text-align: center;
+    color: #4a4949;
+    padding-top: 350px;
+    font-weight: bolder;
+    font-family: inherit;   
+    font-size: 35px;
+}
+.togo p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.togo button{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    color: white;
+    font-size: 20px;
+}
+.togo button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+
+/* section a1 is over */
+
+/* section a2 is start  */
+
+#a2{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a2 #ha2{
+    font-size: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 800;
+    padding-top: 50px;   
+    text-align: center;   
+    /* position: relative; */
+}
+.aboimg{
+    height: 500px;
+    width: 50%;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 30%;
+    margin-top: 150px;
+    background-image: url(img/about-img.png);
+}
+.dist{
+    height: 450px;
+    width: 30%;
+    background-color: aliceblue;
+    /* border: 1px solid antiquewhite; */
+    position: absolute;
+    left: 15%;
+    margin-top: 50px;
+}
+.dist h1{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.dist p{
+    font-size: 22px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.dist button{
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.dist button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+
+/* section a2 is over */
+
+/* section a3 is start */
+
+#a3{
+    height: 1000px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a31{
+    font-size: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 800;
+    padding-top: 50px;   
+    text-align: center;   
+}
+.blog1{
+    height: 700px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 100px;
+    margin-left: 18%;
+}
+.blog2{
+    height: 700px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: 100px;
+    margin-right: 18%;
+}
+.blog1 h1{
+    padding-top: 20px;
+}
+.blog1 p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.blog1 button{
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.blog1 button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+.blog2 h1{
+    padding-top: 20px;
+}
+.blog2 p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.blog2 button{
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.blog2 button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+
+
+/* section a3 is over */
+
+/* section a4 is start */
+
+#a4{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a41{
+    font-size: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 800;
+    padding-top: 50px;   
+    text-align: center;   
+}
+.touch{
+    height: 550px;
+    width: 50%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.touch input{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 40px;
+    background-color: lightgrey;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+#message{
+    height: 120px;
+}
+.touch button{
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+.touch button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+/* section a4 is over */
+
+
+/* footer is start */
+
+footer{
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+    background-image: url(img/footer-bg.png);
+    border: 1px solid black;
+}
+#foo1{
+    height: 300px;
+    width: 80%;
+    /* border: 1px solid white; */
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.f1,.f2,.f3{
+    height: 300px;
+    width: 25%;
+    /* border: 1px solid white; */
+    float: left;
+    margin-left: 6%;
+}
+.f1 h1{
+    color: #d98473;
+}
+#links{
+    margin-top: 50px;
+}
+#links a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    display: block;
+}
+.fa-phone{
+    color: white;
+    font-size: 22px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.f1 h4{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.f2 h1{
+    color: #d98473;
+}
+.f2 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+}
+.fa-location-dot{
+    color: white;
+    font-size: 22px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.f2 h4{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.f3 h1{
+    color: #d98473;
+}
+.f3 input{
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+.f3 button{
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    
+}
+.f3 button:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+.fa-envelope{
+    color: white;
+    font-size: 22px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+.f3 h4{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}

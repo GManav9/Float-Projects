@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .login{
+    height: 700px;
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 130px;
+    margin-left: 45%;
+}
+.login h1{
+    font-size: 50px;
+    text-align: center;
+}
+.em{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+.pas{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 22px;
+    padding-left: 15px;
+}
+.rem{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 22px;
+    margin-left: 62px;
+    margin-top: 20px;
+    position: relative;
+}
+#check{
+    height: 20px;
+    width: 100px;
+    float: right;
+    margin-right: 375px;
+    margin-top: 15px;
+}
+span{
+    float: right;
+    margin-right: 180px;
+    position: absolute;
+    left: 45px;
+    top: 13px;
+}
+#lo1{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 62px;
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    cursor: pointer;
+    color: white;
+}
+#lo1:hover{
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    transition: 1s;
+}
+#lo2{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 62px;
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    color: white;
+    cursor: pointer;
+}
+#lo2:hover{
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    transition: 1s;
+}
+#lo3{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 62px;
+    background-color: #4a4949;
+    border: 1px solid #4a4949;
+    color: white;
+    cursor: pointer;
+}
+#lo3:hover{
+    background-color: #d98473;
+    border: 1px solid #d98473;
+    transition: 1s;
+}
+    </style>
+</head>
+<body background="img/banner-bg.png">
+    <div class="login">
+        <h1>Log In</h1>
+        <center>
+            <input type="email" placeholder="Email Address" class="em"><br>
+            <input type="password" placeholder="Password" class="pas"><br>
+
+        </center>
+        <div class="rem">
+            <input type="checkbox" id="check">
+            <span>Remember Password</span>
+        </div>
+        <button id="lo1">Log In</button>
+        <button id="lo2">Log In With Google</button>
+        <button id="lo3">Log In With Facebook</button>
+    </div>
+</body>
+</html>
