@@ -1,0 +1,678 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+}
+.logo{
+    height: 80px;
+    width: 20%;
+    /* border: 1px solid red; */
+    float:  left;
+}
+.logo .fa-car{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logo h1{
+    display: inline;
+    padding-left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+#get{
+    float: right;
+    height: 80px;
+    width: 10%;
+    background-color: red;
+    border: 1px solid red;
+    margin-right: 10px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+nav{
+    height: 80px;
+    width: 35%;
+    float: right;
+    /* border: 1px solid black; */
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 80px;
+    padding-left: 20px;
+    color: black;
+}
+/* header is over */
+
+/* section a1 is start */
+
+.a1{
+    height: 900px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    background-image: url(images/g\ wagon.jpg);
+    position: relative;
+}
+.bla{
+    background-color: black;
+    height: 900px;
+    width: 100%;
+    opacity: 70%; 
+}
+.qua{
+    height: 500px;
+    width: 30%;
+    /* border: 10px solid black; */
+    float: left;
+    position: absolute;
+    top: 200px;
+    margin-left: 15%;
+}
+.qua h1{
+    color: white;
+    font-size: 60px;
+}
+.qua p{
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+}
+.qua #le{
+    height: 60px;
+    width: 200px;
+    background-color: red;
+    border: 1px solid red;
+    font-size: 22px;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* section a1 is over */
+
+/* section a2 is start */
+
+#a2{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.cate{
+    height: 400px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.qs ,.ew,.me{
+    height: 400px;
+    width: 27%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 4.7%;
+    position: relative;
+}
+.qs img ,.ew img,.me img{
+    position: absolute;
+    left: 31%;
+}
+.qs h1{
+    font-size: 40px;
+    position: absolute;
+    left: 12%;
+    top: 160px;   
+}
+.qs p{
+    font-size: 22px;
+    margin-top: 230px;
+    text-align: center;
+}
+.qs button{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ew h1{
+    font-size: 40px;
+    position: absolute;
+    left: 12%;
+    top: 160px;   
+}
+.ew p{
+    font-size: 22px;
+    margin-top: 230px;
+    text-align: center;
+}
+.ew button{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.me h1{
+    font-size: 40px;
+    position: absolute;
+    left: 12%;
+    top: 160px;   
+}
+.me p{
+    font-size: 22px;
+    margin-top: 230px;
+    text-align: center;
+}
+.me button{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* section a2 is over */
+
+/* section a3 is start */
+
+.a3{
+    height: 300px;
+    width: 100%;
+    background-image: url(images/client.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5; */
+    /* border: 1px solid black; */
+}
+.a3 .ye h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.a3 .et h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.a3 .sc h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.a3 .cp h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.black{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    opacity: 30%; 
+}
+.ye,.et,.sc,.cp{
+    height: 200px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 4%;
+    margin-top: 50px;
+    background-color: white;
+}
+
+
+/* section a3 is over */
+
+/* section a4 is start */
+
+#a4{
+    height: 900px;
+    width: 100%;
+    border: 1px solid black;
+}
+#a4 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    color: darkblue;
+}
+.explore{
+    height: 600px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-left: 10%;
+
+}
+.ex1,.ex2,.ex3{
+    height: 600px;
+    width: 30%;
+    /* border:   1px solid black; */
+    float: left;
+    margin-left: 2.5%;
+}
+.dia{
+    height: 80px;
+    width: 380px;
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.dia h2{
+    font-size: 32px;
+    margin-top: 18px;
+    padding-right: 70px;
+    float: right;
+}
+.eng{
+    height: 80px;
+    width: 380px;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.eng h2{
+    font-size: 32px;
+    margin-top: 18px;
+    padding-right: 95px;
+    float: right;
+}
+.tire{
+    height: 80px;
+    width: 380px;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.tire h2{
+    font-size: 32px;
+    margin-top: 18px;
+    padding-right: 30px;
+    float: right;
+}
+.oil{
+    height: 80px;
+    width: 380px;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.oil h2{
+    font-size: 32px;
+    margin-top: 18px;
+    padding-right: 95px;
+    float: right;
+}
+.ex2{
+    background-image: url(images/service-1.jpg);
+    background-size: cover;
+}
+.ex3 h1{
+    color: black;
+    margin-top: 20px;
+}
+.ex3 p{
+    font-size: 22px;
+    padding-top: 40px;
+}
+.ex3 button{
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+/* section a4 is over */
+
+/* section a5 is start */
+
+#a5{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(images/carousel-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blac{
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    opacity: 80%;   
+}
+.cer{
+    height: 500px;
+    width: 45%;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    margin-top: 50px;
+    float: left;
+    margin-left: 5%;
+}
+.cer h1{
+    font-size: 50px;
+    padding-top: 105px;
+    color: white;
+}
+.cer p{
+    font-size: 22px;
+    padding-top: 50px;
+    color: white;
+}
+.book{
+    height: 100%;
+    width: 45%;
+    /* background-color: darkred; */
+    float: right;
+    margin-right: 5%;
+}
+.book h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+.book .n{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.book .e{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.book .ser{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.book .date{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.req1{
+    height: 50px;
+    width: 615px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.book #book{
+    height: 50px;
+    width: 615px;
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* section a5 is over */
+
+/* section a6 is start */
+
+.a6{
+    height: 800px;
+    width: 100%;
+    border: 1px solid black;
+}
+.a6 h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+.tech{
+    height: 500px;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    margin-top: 70px;
+}
+.tech1,.tech2,.tech3{
+    height: 500px;
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2.5%;
+}
+.tech1{
+    background-image: url(images/team-1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: red;
+}
+.tech1 h1{
+    padding-top: 400px;
+    color: white;
+}
+.tech1 h2{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+.tech2{
+    background-image: url(images/team-2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: red;
+}
+.tech2 h1{
+    padding-top: 400px;
+    color: white;
+}
+.tech2 h2{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+.tech3{
+    background-image: url(images/team-3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: red;
+}
+.tech3 h1{
+    padding-top: 400px;
+    color: white;
+}
+.tech3 h2{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+/* section a6 is over */
+
+/* section a7 is start */
+
+#a7{
+    width: 100%;
+    height: 800px;
+    
+}
+#a7 h1{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.contact{
+    height: 600px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.contact .co{
+    width: 50%;
+    height: 600px;
+    background-color: red;
+    float: right;
+}
+.co .input{
+    margin-top: 50px;
+}
+.co input{ 
+    width: 500px;
+    height: 60px;
+    margin-left: 10%;
+    padding-left: 20px;
+    font-size: 22px;
+}
+.co button{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+.map{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.map iframe{
+    height: 100%;
+    width: 100%;
+}
+/* footer is start */
+
+footer{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+}
+.foo{
+    height: 400px;
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 10%;
+    /* border: 1px solid white; */
+}
+.add,.ope,.serv,.new{
+    height: 400px;
+    width: 22%;
+    /* border: 1px solid white; */
+    float: left;
+    color: white;
+    margin-left: 2.5%;
+}
+
+.fa-location-dot{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.add h2{
+    font-size: 22px;
+    display: inline;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.fa-phone{
+    font-size: 25px;
+    padding-top: 35px;
+}
+.fa-envelope{
+    font-size: 25px;
+    padding-top: 35px;
+}
+.ope h2{
+    font-size: 22px;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.ope span{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.so{
+    height: 200px;
+    width: 100%;
+    margin-top: 25px;
+}
+.so h2{
+    font-size: 22px;
+    font-weight: lighter;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.new p{
+    font-weight: lighter;
+    font-size: 22px;
+    padding-top: 50px;
+}
+.new #foid{
+    height: 50px;
+    width: 300px;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+.si{
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+}
