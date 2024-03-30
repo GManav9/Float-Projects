@@ -1,0 +1,428 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    float: left;
+    margin-left: 20px;
+}
+.logo h1{
+    cursor: pointer;
+    font-size: 50px;
+    line-height: 80px;
+}
+.anchor{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-left: 20%;
+}
+nav{
+    height: 100%;
+    width: 100%;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 15px;
+    color: black;
+}
+h2{
+    float: right;
+    font-size: 30px;
+    line-height: 80px;
+    text-decoration: none;
+    margin-right: 5%;
+    cursor: pointer;
+}
+/* header is over */
+
+/* section a1 is start */
+
+
+.a1{
+    height: 700px;
+    width: 100%;
+    border: 1px solid white;
+    background-image: url(img/a1.png);
+    background-position: center;
+    background-size: cover;
+}
+#best{
+    height: 400px;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 25%;
+    position: relative;
+}
+#best h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+#best input{
+    height: 60px;
+    width: 45%;
+    margin-left: 20%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 50px;
+    font-size: 22px;
+    padding-left: 15px;
+    border: 1px solid white;
+}
+#sub{
+    height: 60px;
+    width: 20%;
+    position: absolute;
+    top: 119px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    right: 210px;
+    background-color: darkgrey;
+    border: 1px solid darkgray;
+    font-size: 22px;
+    cursor: pointer;
+}
+.a1 p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+#dis{
+    height: 60px;
+    width: 20%;
+    background-color: darkgrey;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* section a1 is over */
+
+/* section a2 is start */
+.a2{
+    width: 100%;
+    height: 700px;
+}
+.a2 .mark{
+    height: 600px;
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 3%;
+}
+.a2 .mark h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.a2 .mark p{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.a2 .mark button{
+    height: 50px;
+    width: 250px;
+    margin-top: 80px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.a2 .mark2{
+    height: 600px;
+    width: 45%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 3%;
+    background-image: url(img/img-1.png);
+}
+
+/* seciton a2 is over */
+
+/* section a3 is start */
+.a3{
+    width: 100%;
+    height: 700px;
+}
+.a3 .mark{
+    height: 600px;
+    width: 45%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 3%;
+}
+.a3 .mark h1{
+    font-size: 50px;
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.a3 .mark p{
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.a3 .mark button{
+    height: 50px;
+    width: 250px;
+    margin-top: 80px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.a3 .mark2{
+    height: 600px;
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 3%;
+    background-image: url(img/img-2.png);
+}
+/* section a3 is over */
+
+/* section a4 is start */
+
+
+.a4{
+    width: 100%;
+    height: 700px;
+}
+.a4 .mark{
+    height: 600px;
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 3%;
+}
+.a4 .mark h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.a4 .mark p{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.a4 .mark button{
+    height: 50px;
+    width: 250px;
+    margin-top: 80px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.a4 .mark2{
+    height: 600px;
+    width: 45%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 3%;
+    background-image: url(img/img-3.png);
+}
+
+/* section a4 is over */
+
+/* section a5 is start */
+.a5{
+    width: 100%;
+    height: 700px;
+}
+.a5 .mark{
+    height: 600px;
+    width: 45%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 3%;
+}
+.a5 .mark h1{
+    font-size: 50px;
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.a5 .mark p{
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.a5 .mark button{
+    height: 50px;
+    width: 250px;
+    margin-top: 80px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.a5 .mark2{
+    height: 600px;
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 3%;
+    background-image: url(img/img-4.png);
+}
+
+/* section a5 is over */
+
+/* section a6 is start */
+
+.a6{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.login{
+    height: 600px;
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.login h1{
+    font-size: 50px;
+    text-align: center;
+}
+.em{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 22px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+.pas{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 22px;
+    padding-left: 15px;
+}
+.rem{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 22px;
+    margin-left: 62px;
+    margin-top: 20px;
+    position: relative;
+}
+#check{
+    height: 20px;
+    width: 100px;
+    float: right;
+    margin-right: 375px;
+    margin-top: 15px;
+}
+span{
+    float: right;
+    margin-right: 180px;
+    position: absolute;
+    left: 45px;
+    top: 13px;
+}
+#lo1{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 62px;
+    background-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    cursor: pointer;
+}
+#lo2{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 62px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+}
+#lo3{
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 62px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+.fo{
+    height: 300px;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+.f1,.f2,.f3{
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+}
+.f1 h1{
+    font-size: 40px;
+}
+.f1 p{
+    font-size: 22px;
+    margin-top: 40px;
+}
+.f2 h1{
+    font-size: 40px;
+}
+.f2 p{
+    font-size: 22px;
+    margin-top: 40px;
+}
+.f3 h1{
+    font-size: 40px;
+}
+#an1{
+    margin-top: 40px;
+}
+.f3 a{
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 10px;
+    color: black;
+}
